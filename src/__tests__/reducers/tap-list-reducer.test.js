@@ -18,7 +18,7 @@ describe('tap-list-reducer', () => {
     expect(tapListReducer(undefined, {type: null})).toEqual([])
   })
 
-  test('Should concat new keg to tap list', () => {
+  test('2 Should concat new keg to tap list', () => {
     const { name, brand, price, alcoholContent, quantity, id } = newKeg;
     const action = {
       type: 'ADD_KEG',
