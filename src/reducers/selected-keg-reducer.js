@@ -6,8 +6,7 @@ export default (state = null, action) => {
   case c.SELECTED_KEG:
     const newSelectedKeg = action.tapList.filter(keg => keg.id === action.id)[0];
     return newSelectedKeg
-  case 'SET_KEG_NULL':
-    
+  case 'SET_KEG_NULL':    
     state = null;
     return state;
   default:

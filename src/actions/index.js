@@ -47,6 +47,12 @@ export const selectedKeg = (id,tapList) => {
   };
 };
 
+export const setKegNull = () => {
+  return {
+    type: c.SET_KEG_NULL    
+  };
+};
+
 export const editing = () => {
   return {
     type: c.EDITING

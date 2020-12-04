@@ -58,4 +58,10 @@ describe('tap room actions', () => {
     })
   })
 
+  test('7 set form false should create SET_FORM_FALSE action', () => {
+    expect(actions.setFormFalse()).toEqual({
+      type: 'SET_FORM_FALSE'        
+    })
+  })
+
 });

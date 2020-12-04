@@ -4,4 +4,5 @@ export const POUR_PINT = 'POUR_PINT';
 export const TOGGLE_FORM = 'TOGGLE_FORM';
 export const SET_FORM_FALSE = 'SET_FORM_FALSE';
 export const SELECTED_KEG = 'SELECTED KEG';
+export const SET_KEG_NULL = 'SET_KEG_NULL';
 export const EDITING = 'EDITING';
