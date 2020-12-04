@@ -13,6 +13,14 @@ describe('tap-list-reducer', () => {
   }  
 
   const startingList = [];
+  const startingList2 = [{
+    name: "testBeer",
+    brand: "testBrand",
+    price: "4.00",
+    alcoholContent: "6.5",
+    quantity: "1",
+    id: "10001"
+  }];
 
   test('1 Should return default state if no action is triggered', () => {    
     expect(tapListReducer(undefined, {type: null})).toEqual([])
@@ -39,4 +47,14 @@ describe('tap-list-reducer', () => {
       id: "10001"
     }])
   });
+
+  test('Should delete a keg', () => {    
+    const action = {
+      type: 'DELETE_KEG',
+      id: "10001"
+    }
+    expect(tapListReducer(startingList2, action)).toEqual([])    
+  })
+
+
 });
