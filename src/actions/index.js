@@ -10,3 +10,7 @@ export const addKeg = (newKeg) => {
     id: id  
   }
 }
+
+export const deleteKeg = (id) => {
+  
+}

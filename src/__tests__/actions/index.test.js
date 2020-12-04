@@ -12,8 +12,7 @@ describe('tap room actions', () => {
     id: "10001"
   }  
 
-  test('add keg should create ADD_KEG action', () => {
-    
+  test('1 add keg should create ADD_KEG action', () => {    
     expect(actions.addKeg(newKeg)).toEqual({
       type: 'ADD_KEG',
       name: "testBeer",
@@ -24,5 +23,12 @@ describe('tap room actions', () => {
       id: "10001"
     }  );
   });
+
+  test('2 delete keg should create DELETE_KEG action', () => {
+    expect(actions.deleteKeg("10001")).toEqual({
+      type: 'DELETE_KEG',
+      id: "10001"
+    })
+  })
 
 });
