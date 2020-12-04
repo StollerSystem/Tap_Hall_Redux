@@ -43,4 +43,12 @@ describe('tap room actions', () => {
       type: 'TOGGLE_FORM'      
     })
   })
+
+  test('5 selected keg should create SELECTED_KEG action', () => {
+    expect(actions.selectedKeg("10001")).toEqual({
+      type: 'SELECTED_KEG',
+      id: "10001"      
+    })
+  })
+
 });

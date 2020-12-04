@@ -30,3 +30,7 @@ export const toggleForm = () => {
     type: 'TOGGLE_FORM'
   };
 };
+
+export const selectedKeg = (id) => {
+  
+};
