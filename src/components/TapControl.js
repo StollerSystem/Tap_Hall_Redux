@@ -3,6 +3,7 @@ import TapList from "./TapList.js"
 import NewKegForm from "./NewKegForm.js"
 import KegDetail from "./KegDetails.js"
 import EditKegForm from "./EditKegForm.js"
+import { connect } from 'react-redux';
 
 
 class TapControl extends React.Component {
@@ -113,5 +114,16 @@ class TapControl extends React.Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    masterTapList: state.masterTapList,
+    formVisibleOnPage: state.formVisibleOnPage,
+    selectedKeg: state.selectedKeg,
+    editing: state.editing
+  }
+}
+
+TapControl = connect(mapStateToProps)(TapControl);
 
 export default TapControl;
