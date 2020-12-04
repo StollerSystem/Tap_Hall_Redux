@@ -8,7 +8,12 @@ import { Provider } from 'react-redux';
 import rootReducer from './reducers/index';
 
 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, 
+  {masterTapList: [
+    {name: "Viking Mead", brand: "Skull Crusher", price: "4.50", alcoholContent: "8.5", quantity: "10", id:"10001" },
+    {name: "Dansk Blod", brand: "Einstök", price: "5.50", alcoholContent: "6.5", quantity: "0", id:"10002" },
+    {name: "Savage Pilsner", brand: "Ragnar", price: "3.50", alcoholContent: "3.5", quantity: "124", id:"10003" }
+  ]});
 
 ReactDOM.render(
   <Provider store={store}>
@@ -17,7 +22,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

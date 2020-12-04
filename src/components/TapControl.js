@@ -8,10 +8,6 @@ import PropTypes from 'prop-types';
 import * as a from './../actions/index'
 
 
-
-
-
-
 class TapControl extends React.Component {
   constructor(props) {
     super(props);
