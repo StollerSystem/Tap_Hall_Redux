@@ -38,7 +38,7 @@ code {
 }
   
 .header {
-  height: 40%;
+  height: 34%;
 }
 
 .mainBox {
@@ -86,8 +86,8 @@ button {
   text-align: center;
 }
 
-.shield {
-  margin-top: 35px;
+.sideImg {
+  margin-top: 40px;
   width: 100%;
   height: auto;
 }
