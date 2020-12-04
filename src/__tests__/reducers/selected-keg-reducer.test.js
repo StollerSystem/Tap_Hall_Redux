@@ -1,4 +1,5 @@
 import selectedKeg from '../../reducers/selected-keg-reducer';
+import * as c from '../../actions/ActionTypes';
 
 describe("selectedKegReducer", () => {
 
@@ -27,7 +28,7 @@ describe("selectedKegReducer", () => {
   test('Should select keg by id', () => {
 
     const action = {
-      type: 'SELECT_KEG',
+      type: c.SELECTED_KEG,
       id: "10001"
     }
 

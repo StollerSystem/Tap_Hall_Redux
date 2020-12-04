@@ -1,4 +1,5 @@
 import tapListReducer from '../../reducers/tap-list-reducer';
+import * as c from '../../actions/ActionTypes';
 
 
 describe('tap-list-reducer', () => {
@@ -29,7 +30,7 @@ describe('tap-list-reducer', () => {
   test('2 Should concat new keg to tap list', () => {
     const { name, brand, price, alcoholContent, quantity, id } = newKeg;
     const action = {
-      type: 'ADD_KEG',
+      type: c.ADD_KEG,
       name: name,
       brand: brand,
       price: price,
@@ -50,7 +51,7 @@ describe('tap-list-reducer', () => {
 
   test('3 Should delete a keg', () => {    
     const action = {
-      type: 'DELETE_KEG',
+      type: c.DELETE_KEG,
       id: "10001"
     }
     expect(tapListReducer(startingList2, action)).toEqual([])    
@@ -58,7 +59,7 @@ describe('tap-list-reducer', () => {
 
   test('4 Should pour a pint', () => {
     const action = {
-      type: 'POUR_PINT',
+      type: c.POUR_PINT,
       id: "10001"
     }
     expect(tapListReducer(startingList2, action)).toEqual([{

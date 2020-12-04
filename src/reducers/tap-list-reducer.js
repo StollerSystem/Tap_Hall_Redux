@@ -1,8 +1,10 @@
+import * as c from './../actions/ActionTypes';
+
 export default (state = [], action) => { 
 
   switch (action.type) {
 
-  case 'ADD_KEG':
+  case c.ADD_KEG:
     const { name, brand, price, alcoholContent, quantity, id } = action;
     return state.concat({      
       name: name,
@@ -13,11 +15,11 @@ export default (state = [], action) => {
       id: id  
     }) 
   
-  case 'DELETE_KEG':
+  case c.DELETE_KEG:
     const newState = state.filter(Tap => Tap.id !== action.id);    
     return newState;
 
-  case 'POUR_PINT':
+  case c.POUR_PINT:
     const newState2 = state;
     for (const keg of newState2) {
       console.log("POUR TEST "+" "+keg.id+" "+action.id)
