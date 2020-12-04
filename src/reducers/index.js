@@ -5,10 +5,7 @@ import tapListReducer from './tap-list-reducer';
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-  masterTapList: tapListReducer,
-  forVisibleOnPage: formVisibleReducer,
-  selectedKeg: selectedKegReducer,
-  editing: editingReducer
+  
 })
 
 export default rootReducer;
