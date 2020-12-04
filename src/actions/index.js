@@ -19,5 +19,12 @@ export const deleteKeg = (id) => {
 }
 
 export const pourPint = (id) => {
+  return {
+    type: 'POUR_PINT',
+    id: id
+  }
+}
+
+export const toggleForm = () => {
   
 }
