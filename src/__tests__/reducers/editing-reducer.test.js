@@ -6,5 +6,9 @@ describe("editingReducer", () => {
     expect(editingReducer(false, { type: null })).toEqual(false);
   });
 
+  test('Should toggle form visibility state to true', () => {
+    expect(editingReducer(false, { type: 'EDITING' })).toEqual(true);
+  });
+
   
 });
