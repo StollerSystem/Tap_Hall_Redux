@@ -43,5 +43,4 @@ describe('tap room actions', () => {
       type: 'TOGGLE_FORM'      
     })
   })
-
 });
