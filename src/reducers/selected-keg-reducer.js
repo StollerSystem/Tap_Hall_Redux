@@ -1,7 +1,6 @@
 import * as c from './../actions/ActionTypes';
 
-export default (state = null, action) => {
-  // console.log(state)
+export default (state = null, action) => {  
   switch (action.type) {
   case c.SELECTED_KEG:
     const newSelectedKeg = action.tapList.filter(keg => keg.id === action.id)[0];

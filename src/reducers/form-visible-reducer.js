@@ -1,7 +1,6 @@
 import * as c from './../actions/ActionTypes';
 
-export default (state = false, action) => {
-  // console.log(state)
+export default (state = false, action) => {  
   switch (action.type) {
     case c.TOGGLE_FORM:
       return !state;
@@ -9,5 +8,5 @@ export default (state = false, action) => {
       return false;
     default:
       return state;
-    }
+  }
 };

@@ -17,9 +17,7 @@ describe("selectedKegReducer", () => {
     alcoholContent: "6.5",
     quantity: "1",
     id: "10002"
-  }];
-
-  
+  }];  
 
   test('Should return default state if no action type is recognized', () => {
     expect(selectedKeg(undefined, { type: null })).toEqual(null);

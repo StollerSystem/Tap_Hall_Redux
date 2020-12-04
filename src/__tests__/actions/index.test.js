@@ -26,21 +26,21 @@ describe('tap room actions', () => {
 
   test('2 delete keg should create DELETE_KEG action', () => {
     expect(actions.deleteKeg("10001")).toEqual({
-      type: 'DELETE_KEG',
+      type: c.DELETE_KEG,
       id: "10001"
     })
   })
 
   test('3 pour pint should create POUR_PINT action', () => {
     expect(actions.pourPint("10001")).toEqual({
-      type: 'POUR_PINT',
+      type: c.POUR_PINT,
       id: "10001"
     })
   })
 
   test('4 toggle form should create TOGGLE_FORM action', () => {
     expect(actions.toggleForm()).toEqual({
-      type: 'TOGGLE_FORM'      
+      type: c.TOGGLE_FORM      
     })
   })
 
@@ -54,31 +54,31 @@ describe('tap room actions', () => {
 
   test('6 editing should create EDITING action', () => {
     expect(actions.editing("10001")).toEqual({
-      type: 'EDITING'        
+      type: c.EDITING        
     })
   })
 
   test('7 set form false should create SET_FORM_FALSE action', () => {
     expect(actions.setFormFalse()).toEqual({
-      type: 'SET_FORM_FALSE'        
+      type: c.SET_FORM_FALSE     
     })
   })
 
   test('8 set keg null should create SET_KEG_NULL action', () => {
     expect(actions.setKegNull()).toEqual({
-      type: 'SET_KEG_NULL'        
+      type: c.SET_KEG_NULL        
     })
   })
 
   test('9 set editing false should create SET_EDIT_FALSE action', () => {
     expect(actions.editingSetFalse()).toEqual({
-      type: 'EDITING_SET_FALSE'        
+      type: c.EDITING_SET_FALSE      
     })
   })
 
   test('10 edit keg should create EDIT_KEG action', () => {
     expect(actions.editKeg("test","test")).toEqual({
-      type: 'EDIT_KEG', 
+      type: c.EDIT_KEG, 
       keg: "test",
       selectedKeg: "test"       
     })
