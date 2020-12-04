@@ -34,9 +34,12 @@ code {
   border: solid rgb(249, 187, 105);
   border-width: 3px;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
   
-
+.header {
+  height: 40%;
+}
 
 .mainBox {
   height: 700px;
@@ -83,4 +86,12 @@ button {
   text-align: center;
 }
 
+.shield {
+  width: 100%;
+  height: auto;
+}
 
+.container {
+  max-width: 1500px;
+  width: 100%;
+}

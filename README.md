@@ -4,7 +4,7 @@
 
 #### By _**Ben Stoller**_
 
-##### Check it out: http://StollerSystem.github.io/Tap_Room
+##### Check it out: http://StollerSystem.github.io/Tap_Room_Redux
 
 ## Description:
 
