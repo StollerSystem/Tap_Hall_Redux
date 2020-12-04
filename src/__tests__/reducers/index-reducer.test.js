@@ -22,5 +22,9 @@ describe("rootReducer", () => {
     expect(store.getState().formVisibleOnPage).toEqual(formVisibleReducer(undefined, { type: null }));
   });
 
+  test('3 Check that initial state of editingReducer matches root reducer', () => {
+    expect(store.getState().editing).toEqual(editingReducer(undefined, { type: null }));
+  });
+
 
 });
