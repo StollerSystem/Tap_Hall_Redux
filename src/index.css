@@ -87,11 +87,12 @@ button {
 }
 
 .shield {
+  margin-top: 35px;
   width: 100%;
   height: auto;
 }
 
 .container {
   max-width: 1500px;
-  width: 100%;
+  width: 100%;  
 }
