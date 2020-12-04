@@ -56,5 +56,18 @@ describe('tap-list-reducer', () => {
     expect(tapListReducer(startingList2, action)).toEqual([])    
   })
 
-
+  test('4 Should pour a pint', () => {
+    const action = {
+      type: 'POUR_PINT',
+      id: "10001"
+    }
+    expect(tapListReducer(startingList2, action)).toEqual([{
+      name: "testBeer",
+      brand: "testBrand",
+      price: "4.00",
+      alcoholContent: "6.5",
+      quantity: "0",
+      id: "10001"
+    }])
+  })
 });
