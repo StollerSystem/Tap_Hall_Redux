@@ -33,6 +33,4 @@ describe("rootReducer", () => {
   test('5 Check that initial state of tapListReducer matches root reducer', () => {
     expect(store.getState().masterTapList).toEqual(tapListReducer(undefined, { type: null }));
   });
-
-
 });
