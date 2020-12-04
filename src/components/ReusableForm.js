@@ -26,7 +26,7 @@ function NewProductForm(props) {
           className="form-control"
             type="number"
             name='alcoholContent'
-            placeholder='Alcohol Content' min="0.01" step="0.01" required/><br/>
+            placeholder='Alcohol Content' min="0.01" max="15.00" step="0.01" required/><br/>
           <input
           className="form-control"
             type="number"

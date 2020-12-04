@@ -10,9 +10,7 @@ import * as a from './../actions/index'
 
 class TapControl extends React.Component {
   constructor(props) {
-    super(props);
-    // this.props = {
-    //   masterTapList: [{name: "Viking Mead", brand: "Skull Crusher", price: "4.50", alcoholContent: "8.5", quantity: "10", id:"10001" }, {name: "Dansk Blod", brand: "Einstök", price: "5.50", alcoholContent: "6.5", quantity: "0", id:"10002" }, {name: "Savage Pilsner", brand: "Ragnar", price: "3.50", alcoholContent: "3.5", quantity: "124", id:"10003" }]}
+    super(props);    
   }
 
   handleClickForm = () => {

@@ -27,8 +27,8 @@ function TapList(props) {
 
 TapList.propTypes = {
   availableKegs: PropTypes.array,
-  onKegSelection: PropTypes.func //dont need?
-  
+  onKegSelection: PropTypes.func,
+  onPoutPint: PropTypes.func  
 };
 
 export default TapList;

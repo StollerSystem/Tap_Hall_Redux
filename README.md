@@ -1,6 +1,6 @@
 # _Viking Ship Tap Hall + Redux_
 
-#### _An app to keep track of kegs on tap, 12/04/20_
+#### _An app to keep track of kegs on tap - refactored to untilize Redux, 12/04/20_
 
 #### By _**Ben Stoller**_
 

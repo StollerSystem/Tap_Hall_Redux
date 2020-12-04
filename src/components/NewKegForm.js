@@ -21,7 +21,8 @@ function NewProductForm(props) {
 }
 
 NewProductForm.propTypes = {
-  onNewProductCreation: PropTypes.func
+  onNewProductCreation: PropTypes.func,
+  onNewKegCreation: PropTypes.func
 };
 
 export default NewProductForm;
