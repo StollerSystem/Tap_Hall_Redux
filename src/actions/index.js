@@ -8,23 +8,25 @@ export const addKeg = (newKeg) => {
     alcoholContent: alcoholContent,
     quantity: quantity,
     id: id  
-  }
-}
+  };
+};
 
 export const deleteKeg = (id) => {
   return {
     type: 'DELETE_KEG',
     id: id
-  }
-}
+  };
+};
 
 export const pourPint = (id) => {
   return {
     type: 'POUR_PINT',
     id: id
-  }
-}
+  };
+};
 
 export const toggleForm = () => {
-  
-}
+  return {
+    type: 'TOGGLE_FORM'
+  };
+};
