@@ -4,17 +4,20 @@ import NewKegForm from "./NewKegForm.js"
 import KegDetail from "./KegDetails.js"
 import EditKegForm from "./EditKegForm.js"
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import * as a from '../actions/index'
+
 
 
 class TapControl extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      masterTapList: [{name: "Viking Mead", brand: "Skull Crusher", price: "4.50", alcoholContent: "8.5", quantity: "10", id:"10001" }, {name: "Dansk Blod", brand: "Einstök", price: "5.50", alcoholContent: "6.5", quantity: "0", id:"10002" }, {name: "Savage Pilsner", brand: "Ragnar", price: "3.50", alcoholContent: "3.5", quantity: "124", id:"10003" }],
-      formVisibleOnPage: false,
-      selectedKeg: null,
-      editing: false
-    }
+    // this.state = {
+    //   masterTapList: [{name: "Viking Mead", brand: "Skull Crusher", price: "4.50", alcoholContent: "8.5", quantity: "10", id:"10001" }, {name: "Dansk Blod", brand: "Einstök", price: "5.50", alcoholContent: "6.5", quantity: "0", id:"10002" }, {name: "Savage Pilsner", brand: "Ragnar", price: "3.50", alcoholContent: "3.5", quantity: "124", id:"10003" }],
+    //   formVisibleOnPage: false,
+    //   selectedKeg: null,
+    //   editing: false
+    // }
   }
 
   handleClickForm = () => {
@@ -32,10 +35,11 @@ class TapControl extends React.Component {
   }
 
   handleAddingNewKegToList = (newKeg) => {
-    const newMasterTapList = this.state.masterTapList.concat(newKeg);
-    this.setState({
-      masterTapList: newMasterTapList,
-      formVisibleOnPage: false });
+    dispatch()
+    // const newMasterTapList = this.state.masterTapList.concat(newKeg);
+    // this.setState({
+    //   masterTapList: newMasterTapList,
+    //   formVisibleOnPage: false });
   }
 
   handleChangingSelectedKeg = (id) => {       
@@ -113,6 +117,13 @@ class TapControl extends React.Component {
       </div>
     );
   }
+}
+
+TapControl.PropTypes = {
+  masterTapList: PropTypes.array,
+  formVisibleOnPage: PropTypes.bool,
+  selectedKeg: Proptypes.object,
+  editing: state.bool
 }
 
 const mapStateToProps = state => {
