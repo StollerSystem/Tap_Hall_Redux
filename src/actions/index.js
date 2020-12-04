@@ -33,6 +33,12 @@ export const toggleForm = () => {
   };
 };
 
+export const setFormFalse = () => {
+  return {
+    type: c.SET_FORM_FALSE
+  };
+};
+
 export const selectedKeg = (id,tapList) => {
   return {
     type: c.SELECTED_KEG,
