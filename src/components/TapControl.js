@@ -32,7 +32,7 @@ class TapControl extends React.Component {
       
 
       dispatch(a.setFormFalse())
-      dispatch({type: 'SET_KEG_NULL'})
+      dispatch(a.setKegNull())
       dispatch({type: 'EDITING_SET_FALSE'})
 
       // this.setState({

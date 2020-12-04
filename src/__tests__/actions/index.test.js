@@ -70,4 +70,10 @@ describe('tap room actions', () => {
     })
   })
 
+  test('9 set editing false should create SET_EDIT_FALSE action', () => {
+    expect(actions.editingSetFalse()).toEqual({
+      type: 'EDITING_SET_FALSE'        
+    })
+  })
+
 });

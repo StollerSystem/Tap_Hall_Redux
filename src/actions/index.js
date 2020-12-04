@@ -58,3 +58,9 @@ export const editing = () => {
     type: c.EDITING
   }
 }
+
+export const editingSetFalse = () => {
+  return {
+    type: c.EDITING_SET_FALSE
+  }
+}
