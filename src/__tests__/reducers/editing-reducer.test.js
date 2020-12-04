@@ -7,9 +7,11 @@ describe("editingReducer", () => {
     expect(editingReducer(false, { type: null })).toEqual(false);
   });
 
-  test('Should toggle form visibility state to true', () => {
+  test('Should toggle editing state to true', () => {
     expect(editingReducer(false, { type: c.EDITING })).toEqual(true);
   });
 
-  
+  test('Should toggle editing state to false', () => {
+    expect(editingReducer(false, { type: c.EDITING_SET_FALSE })).toEqual(false);
+  });  
 });

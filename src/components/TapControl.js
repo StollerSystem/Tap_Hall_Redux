@@ -72,7 +72,7 @@ class TapControl extends React.Component {
   handlePourPint = (id) => {
     const { dispatch } = this.props;
     dispatch(a.pourPint(id));
-    dispatch({type: 'SET_FORM_FALSE'})
+    dispatch(a.setFormFalse())
     
     // const newMasterTapList = this.state.masterTapList;
     // for (const keg of newMasterTapList) {
@@ -105,8 +105,8 @@ class TapControl extends React.Component {
       keg: kegToEdit,
       selectedKeg: this.props.selectedKeg
     })
-    dispatch({type: 'SET_KEG_NULL'})
-    dispatch({type: 'EDITING_SET_FALSE'})
+    dispatch(a.setKegNull())
+    dispatch(a.editingSetFalse())
 
 
   //   const editedMasterTapList = this.state.masterTapList.filter(Keg => Keg.id !== this.state.selectedKeg.id).concat(kegToEdit);    
@@ -120,7 +120,7 @@ class TapControl extends React.Component {
   handleDeletingKeg = (id) => {
     const { dispatch } = this.props;
     dispatch(a.deleteKeg(id))
-    dispatch({type: 'SET_KEG_NULL'})
+    dispatch(a.setKegNull())
     // const newMasterTapList = this.state.masterTapList.filter(Tap => Tap.id !== id);
     // this.setState({
     //   masterTapList: newMasterTapList,

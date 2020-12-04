@@ -64,3 +64,9 @@ export const editingSetFalse = () => {
     type: c.EDITING_SET_FALSE
   }
 }
+
+export const editKeg = () => {
+  return {
+    type: c.EDIT_KEG
+  }
+}
