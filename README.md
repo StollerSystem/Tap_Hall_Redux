@@ -1,4 +1,4 @@
-# _Viking Ship Tap Hall + Redux
+# _Viking Ship Tap Hall + Redux_
 
 #### _An app to keep track of kegs on tap, 12/04/20_
 

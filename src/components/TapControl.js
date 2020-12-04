@@ -41,11 +41,11 @@ class TapControl extends React.Component {
     dispatch(a.selectedKeg(id,this.props.masterTapList))     
   }  
 
-  // NOT UPDATING!
+  
   handlePourPint = (id) => {
     const { dispatch } = this.props;
     dispatch(a.pourPint(id));
-    dispatch(a.setFormFalse())    
+    this.forceUpdate();        
   }
 
   handleEditClick = () => {   
