@@ -100,11 +100,12 @@ class TapControl extends React.Component {
   handleEditingKegInList = (kegToEdit) => {    
     const { dispatch } = this.props;
 
-    dispatch({
-      type: 'EDIT_KEG',
-      keg: kegToEdit,
-      selectedKeg: this.props.selectedKeg
-    })
+    // dispatch({
+    //   type: 'EDIT_KEG',
+    //   keg: kegToEdit,
+    //   selectedKeg: this.props.selectedKeg
+    // })
+    dispatch(a.editKeg(kegToEdit,this.props.selectedKeg))
     dispatch(a.setKegNull())
     dispatch(a.editingSetFalse())
 

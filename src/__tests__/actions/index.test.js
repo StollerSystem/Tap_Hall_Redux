@@ -77,8 +77,10 @@ describe('tap room actions', () => {
   })
 
   test('10 edit keg should create EDIT_KEG action', () => {
-    expect(actions.editKeg()).toEqual({
-      type: 'EDIT_KEG'        
+    expect(actions.editKeg("test","test")).toEqual({
+      type: 'EDIT_KEG', 
+      keg: "test",
+      selectedKeg: "test"       
     })
   })
 

@@ -65,8 +65,10 @@ export const editingSetFalse = () => {
   }
 }
 
-export const editKeg = () => {
+export const editKeg = (kegToEdit,selectedKeg) => {
   return {
-    type: c.EDIT_KEG
+    type: c.EDIT_KEG,
+    keg: kegToEdit,
+    selectedKeg: selectedKeg
   }
 }
