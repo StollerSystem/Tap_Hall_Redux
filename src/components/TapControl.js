@@ -33,7 +33,7 @@ class TapControl extends React.Component {
 
       dispatch(a.setFormFalse())
       dispatch(a.setKegNull())
-      dispatch({type: 'EDITING_SET_FALSE'})
+      dispatch(a.editingSetFalse())
 
       // this.setState({
       //   formVisibleOnPage: false,

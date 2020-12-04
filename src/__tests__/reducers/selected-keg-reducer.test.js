@@ -42,4 +42,8 @@ describe("selectedKegReducer", () => {
       id: "10001"
     });
   });  
+
+  test('Should set keg state to null', () => {
+    expect(selectedKeg(undefined, { type: c.SET_KEG_NULL })).toEqual(null);
+  });
 });
