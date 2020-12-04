@@ -13,6 +13,15 @@ describe('tap-list-reducer', () => {
     id: "10001"
   }  
 
+  const editKeg = {
+    name: "testEdit",
+    brand: "testBrand",
+    price: "4.00",
+    alcoholContent: "6.5",
+    quantity: "10",
+    id: "10001"
+  }
+
   const startingList = [];
   const startingList2 = [{
     name: "testBeer",
@@ -70,5 +79,14 @@ describe('tap-list-reducer', () => {
       quantity: "0",
       id: "10001"
     }])
+  })
+
+  test('5 Should edit a keg', () => {    
+    const action = {
+      type: c.EDIT_KEG,
+      keg: editKeg,
+      selectedKeg: newKeg
+    }
+    expect(tapListReducer(startingList2, action)).toEqual([editKeg])    
   })
 });
