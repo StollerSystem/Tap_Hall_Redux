@@ -17,3 +17,7 @@ export const deleteKeg = (id) => {
     id: id
   }
 }
+
+export const pourPint = (id) => {
+  
+}

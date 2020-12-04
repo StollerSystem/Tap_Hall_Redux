@@ -31,4 +31,11 @@ describe('tap room actions', () => {
     })
   })
 
+  test('3 pour pint should create POUR_PINT action', () => {
+    expect(actions.pourPint("10001")).toEqual({
+      type: 'POUR_PINT',
+      id: "10001"
+    })
+  })
+
 });
