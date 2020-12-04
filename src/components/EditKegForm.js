@@ -25,31 +25,31 @@ function EditKegForm(props) {
             className="form-control"
               type='text'
               name='name'
-              placeholder={props.keg.name} required /><br/>
+              defaultValue={props.keg.name} required /><br/>
             <label htmlFor="brand">Brand:</label>
             <input
             className="form-control"
               type='text'
               name='brand'
-              placeholder={props.keg.brand} required /><br/>
+              defaultValue={props.keg.brand} required /><br/>
             <label htmlFor="price">Price:</label>
             <input
             className="form-control"
               type="number"
               name='price'
-              placeholder={props.keg.price} min="0.01" step="0.01" required /><br/>
+              defaultValue={props.keg.price} min="0.01" step="0.01" required /><br/>
             <label htmlFor="alcoholContent">Alcohol Content:</label>
             <input
             className="form-control"
               type="number"
               name='alcoholContent'
-              placeholder={props.keg.alcoholContent} min="0.01" step="0.01" required/><br/>
+              defaultValue={props.keg.alcoholContent} min="0.01" step="0.01" required/><br/>
             <label htmlFor="quantity">Quantity:</label>
             <input
             className="form-control"
               type="number"
               name='quantity'
-              placeholder={props.keg.quantity} min="1" step="1" max="124" required/><br/>
+              defaultValue={props.keg.quantity} min="1" step="1" max="124" required/><br/>
           <button className="btn btn-outline-danger btn-block" type='submit'>Update Keg</button>
         </div>
       </form>

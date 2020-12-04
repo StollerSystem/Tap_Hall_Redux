@@ -22,7 +22,7 @@ export default (state = [], action) => {
   case c.POUR_PINT:
     const newState2 = state;
     for (const keg of newState2) {
-      console.log("POUR TEST "+" "+keg.id+" "+action.id)
+      // console.log("POUR TEST "+" "+keg.id+" "+action.id)
       if (keg.id === action.id) {
         if (keg.quantity > 0) {
           keg.quantity -= 1;
@@ -35,6 +35,10 @@ export default (state = [], action) => {
     }
     return newState2
 
+  case 'EDIT_KEG':
+    const editedMasterTapList = state.filter(Keg => Keg.id !== action.selectedKeg.id).concat(action.keg);
+
+    return editedMasterTapList
   default:
     return state;
   }
