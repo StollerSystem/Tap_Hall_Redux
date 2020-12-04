@@ -4,7 +4,11 @@ body {
   font-family: 'Germania One', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
-  background-color: rgb(9, 9, 9);
+  /* background-color: rgb(9, 9, 9); */
+  background: rgb(37,37,37);
+  background: linear-gradient(90deg, rgb(14, 16, 8) 0%, rgb(0, 0, 0) 50%, rgb(14, 16, 8) 100%);
+  
+
 }
 
 html {
@@ -43,7 +47,7 @@ code {
 
 .mainBox {
   height: 700px;
-  background-color: antiquewhite;
+  background-color: white;
   border: solid rgb(249, 187, 105);
   border-width: 3px;
   padding: 20px;
