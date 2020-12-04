@@ -12,5 +12,8 @@ export const addKeg = (newKeg) => {
 }
 
 export const deleteKeg = (id) => {
-  
+  return {
+    type: 'DELETE_KEG',
+    id: id
+  }
 }
