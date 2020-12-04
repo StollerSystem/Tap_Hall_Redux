@@ -37,3 +37,7 @@ export const selectedKeg = (id) => {
     id: id
   };
 };
+
+export const editing = () => {
+  
+}

@@ -51,4 +51,10 @@ describe('tap room actions', () => {
     })
   })
 
+  test('6 editing should create EDITING action', () => {
+    expect(actions.editing("10001")).toEqual({
+      type: 'SELECTED_KEG'        
+    })
+  })
+
 });
