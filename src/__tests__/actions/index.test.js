@@ -64,4 +64,10 @@ describe('tap room actions', () => {
     })
   })
 
+  test('8 set keg null should create SET_KEG_NULL action', () => {
+    expect(actions.setKegNull()).toEqual({
+      type: 'SET_KEG_NULL'        
+    })
+  })
+
 });
