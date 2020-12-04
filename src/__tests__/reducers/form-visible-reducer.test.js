@@ -11,5 +11,9 @@ describe("formVisibleReducer", () => {
     expect(formVisibleReducer(false, { type: c.TOGGLE_FORM })).toEqual(true);
   });
 
+  test('Should set form visibility state to false', () => {
+    expect(formVisibleReducer(false, { type: c.SET_FORM_FALSE })).toEqual(false);
+  });
+
   
 });

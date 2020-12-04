@@ -1,5 +1,5 @@
 import * as actions from './../../actions';
-// import * as c from '../../actions/ActionTypes';
+import * as c from '../../actions/ActionTypes';
 
 describe('tap room actions', () => {
 
@@ -45,8 +45,9 @@ describe('tap room actions', () => {
   })
 
   test('5 selected keg should create SELECTED_KEG action', () => {
-    expect(actions.selectedKeg("10001")).toEqual({
-      type: 'SELECTED_KEG',
+    expect(actions.selectedKeg("10001",[])).toEqual({
+      type: c.SELECTED_KEG,
+      tapList: [],
       id: "10001"      
     })
   })
