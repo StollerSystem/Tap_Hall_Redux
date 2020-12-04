@@ -48,7 +48,7 @@ describe('tap-list-reducer', () => {
     }])
   });
 
-  test('Should delete a keg', () => {    
+  test('3 Should delete a keg', () => {    
     const action = {
       type: 'DELETE_KEG',
       id: "10001"
