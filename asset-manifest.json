@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Tap_Room_Redux/static/css/main.4c3a316f.chunk.css",
-    "main.js": "/Tap_Room_Redux/static/js/main.90b52f0d.chunk.js",
-    "main.js.map": "/Tap_Room_Redux/static/js/main.90b52f0d.chunk.js.map",
-    "runtime-main.js": "/Tap_Room_Redux/static/js/runtime-main.06c73e8f.js",
-    "runtime-main.js.map": "/Tap_Room_Redux/static/js/runtime-main.06c73e8f.js.map",
-    "static/js/2.5f0b9b8f.chunk.js": "/Tap_Room_Redux/static/js/2.5f0b9b8f.chunk.js",
-    "static/js/2.5f0b9b8f.chunk.js.map": "/Tap_Room_Redux/static/js/2.5f0b9b8f.chunk.js.map",
-    "static/js/3.79d8dd49.chunk.js": "/Tap_Room_Redux/static/js/3.79d8dd49.chunk.js",
-    "static/js/3.79d8dd49.chunk.js.map": "/Tap_Room_Redux/static/js/3.79d8dd49.chunk.js.map",
-    "index.html": "/Tap_Room_Redux/index.html",
-    "precache-manifest.75a5fcfc0eb77839ed984e0783f33604.js": "/Tap_Room_Redux/precache-manifest.75a5fcfc0eb77839ed984e0783f33604.js",
-    "service-worker.js": "/Tap_Room_Redux/service-worker.js",
-    "static/css/main.4c3a316f.chunk.css.map": "/Tap_Room_Redux/static/css/main.4c3a316f.chunk.css.map",
-    "static/media/ClipartKey_1391822B.png": "/Tap_Room_Redux/static/media/ClipartKey_1391822B.0d992982.png",
-    "static/media/VikingMammen1.png": "/Tap_Room_Redux/static/media/VikingMammen1.7bc105e1.png",
-    "static/media/VikingMammen2.png": "/Tap_Room_Redux/static/media/VikingMammen2.55ffd52f.png"
+    "main.css": "/Tap_Hall_Redux/static/css/main.4c3a316f.chunk.css",
+    "main.js": "/Tap_Hall_Redux/static/js/main.fa58f5da.chunk.js",
+    "main.js.map": "/Tap_Hall_Redux/static/js/main.fa58f5da.chunk.js.map",
+    "runtime-main.js": "/Tap_Hall_Redux/static/js/runtime-main.d442e633.js",
+    "runtime-main.js.map": "/Tap_Hall_Redux/static/js/runtime-main.d442e633.js.map",
+    "static/js/2.d57034a5.chunk.js": "/Tap_Hall_Redux/static/js/2.d57034a5.chunk.js",
+    "static/js/2.d57034a5.chunk.js.map": "/Tap_Hall_Redux/static/js/2.d57034a5.chunk.js.map",
+    "static/js/3.dd0c534d.chunk.js": "/Tap_Hall_Redux/static/js/3.dd0c534d.chunk.js",
+    "static/js/3.dd0c534d.chunk.js.map": "/Tap_Hall_Redux/static/js/3.dd0c534d.chunk.js.map",
+    "index.html": "/Tap_Hall_Redux/index.html",
+    "precache-manifest.e01860433e8c4422dfb6926a15b3e748.js": "/Tap_Hall_Redux/precache-manifest.e01860433e8c4422dfb6926a15b3e748.js",
+    "service-worker.js": "/Tap_Hall_Redux/service-worker.js",
+    "static/css/main.4c3a316f.chunk.css.map": "/Tap_Hall_Redux/static/css/main.4c3a316f.chunk.css.map",
+    "static/media/ClipartKey_1391822B.png": "/Tap_Hall_Redux/static/media/ClipartKey_1391822B.0d992982.png",
+    "static/media/VikingMammen1.png": "/Tap_Hall_Redux/static/media/VikingMammen1.7bc105e1.png",
+    "static/media/VikingMammen2.png": "/Tap_Hall_Redux/static/media/VikingMammen2.55ffd52f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.06c73e8f.js",
-    "static/js/2.5f0b9b8f.chunk.js",
+    "static/js/runtime-main.d442e633.js",
+    "static/js/2.d57034a5.chunk.js",
     "static/css/main.4c3a316f.chunk.css",
-    "static/js/main.90b52f0d.chunk.js"
+    "static/js/main.fa58f5da.chunk.js"
   ]
 }
