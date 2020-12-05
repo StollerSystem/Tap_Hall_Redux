@@ -33,8 +33,7 @@ class TapControl extends React.Component {
   handleChangingSelectedKeg = (id) => {  
     const { dispatch } = this.props;
     dispatch(a.selectedKeg(id,this.props.masterTapList))     
-  }  
-
+  }
   
   handlePourPint = (id) => {
     const { dispatch } = this.props;

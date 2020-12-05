@@ -1,6 +1,6 @@
 # _Viking Ship Tap Hall + Redux_
 
-#### _An app to keep track of kegs on tap - refactored to untilize Redux, 12/04/20_
+#### _An app to keep track of kegs on tap - refactored to utilize Redux, 12/04/20_
 
 #### By _**Ben Stoller**_
 
@@ -50,7 +50,7 @@ https://github.com/StollerSystem
 
 ## Technologies Used:
 
-JavaScript, Node.Js, React, CSS/Bootstrap, Webpack, HTML5, VSCode
+Redux, JavaScript, Node.Js, React, CSS/Bootstrap, Webpack, HTML5, VSCode
 
 ### License:
 
