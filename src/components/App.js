@@ -8,14 +8,14 @@ function App(){
     <React.Fragment>
       <div className="container">
         <div className="row flex-nowrap">
-          <div className="col-2">
+          <div className="col-2 sides">
             <img className="sideImg" src={require('./img/VikingMammen2.png')} alt="MammenLeft" />            
           </div>
           <div className="col-lg-8">
             <Header />
             <TapControl />          
           </div>
-          <div className="col-2">
+          <div className="col-2 sides">
           <img className="sideImg" src={require('./img/VikingMammen1.png')} alt="MammenRight" />
           </div>
         </div>

@@ -4,8 +4,9 @@ body {
   font-family: 'Germania One', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;    
-  background: rgb(37,37,37);
-  background: linear-gradient(90deg, rgb(14, 16, 8) 0%, rgb(0, 0, 0) 50%, rgb(14, 16, 8) 100%);
+  background-color: black;
+  /* background: rgb(37,37,37);
+  background: linear-gradient(90deg, rgb(14, 16, 8) 0%, rgb(0, 0, 0) 50%, rgb(14, 16, 8) 100%); */
 }
 
 html {
@@ -97,4 +98,9 @@ button {
 .container {
   max-width: 1500px;
   width: 100%;  
+}
+
+.sides {
+  background: rgb(37,37,37);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(63, 48, 27) 51%, rgb(0, 0, 0) 100%);
 }
