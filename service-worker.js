@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tap_Hall_Redux/precache-manifest.e01860433e8c4422dfb6926a15b3e748.js"
+  "/Tap_Hall_Redux/precache-manifest.4666b5554647e7ca56791a06c0693796.js"
 );
 
 self.addEventListener('message', (event) => {
