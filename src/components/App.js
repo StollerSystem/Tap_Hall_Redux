@@ -7,7 +7,7 @@ function App(){
   return ( 
     <React.Fragment>
       <div className="container">
-        <div className="row">
+        <div className="row flex-nowrap">
           <div className="col-2">
             <img className="sideImg" src={require('./img/VikingMammen2.png')} alt="MammenLeft" />            
           </div>

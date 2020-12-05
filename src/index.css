@@ -40,6 +40,8 @@ code {
   
 .header {
   height: 34%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 .mainBox {
@@ -49,8 +51,7 @@ code {
   border-width: 3px;
   padding: 20px;
   overflow-y: scroll;
-  margin-bottom: 30px;
-  /* opacity: 95%; */
+  margin-bottom: 30px;  
 }
 
 .keg {
