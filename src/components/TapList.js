@@ -3,7 +3,6 @@ import Keg from "./Keg.js"
 import PropTypes from "prop-types";
 
 
-
 function TapList(props) {
   return (
     <React.Fragment>
