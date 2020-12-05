@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1890d83dda21711f4d2fcfecce1372f4",
+    "revision": "58d49c80423672359075545adf95c35b",
     "url": "/Tap_Room_Redux/index.html"
   },
   {
-    "revision": "718c797055ba2b32310d",
-    "url": "/Tap_Room_Redux/static/css/main.ed981ae9.chunk.css"
+    "revision": "6394a684f2c47eea8cb2",
+    "url": "/Tap_Room_Redux/static/css/main.4c3a316f.chunk.css"
   },
   {
     "revision": "034661e193fc99af835f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tap_Room_Redux/static/js/3.79d8dd49.chunk.js"
   },
   {
-    "revision": "718c797055ba2b32310d",
-    "url": "/Tap_Room_Redux/static/js/main.d5304d89.chunk.js"
+    "revision": "6394a684f2c47eea8cb2",
+    "url": "/Tap_Room_Redux/static/js/main.90b52f0d.chunk.js"
   },
   {
     "revision": "d82512bd57cedad78074",
